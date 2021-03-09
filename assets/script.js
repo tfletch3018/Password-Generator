@@ -54,7 +54,7 @@ function confirmUppercase() {
 
 // Function used to confirm option to include numbers in password generator
 function confirmNumbers() {
-  numberConfirm = prompt ("Would you like to include uppercase characters? \n(Yes or No)");
+  numberConfirm = prompt ("Would you like to include numbers? \n(Yes or No)");
   numberConfirm = numberConfirm.toLowerCase();
 
   if (numberConfirm === null || numberConfirm === "") {
@@ -152,7 +152,6 @@ function writePassword() {
   passwordText.value = password1;
 }
 
-// Add function to reset
 // Add event listener to generate button
 document.getElementById("generate").addEventListener ("click", function() {
   alert("Secure Password Generator");
