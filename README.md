@@ -45,3 +45,5 @@ You are required to submit the following for review:
 
 https://github.com/tfletch3018/Password-Generator
 https://tfletch3018.github.io/Password-Generator/
+
+<img src="password.png">
